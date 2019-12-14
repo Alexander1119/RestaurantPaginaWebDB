@@ -1,0 +1,142 @@
+.boton {
+    width: 100px;
+    height: 50px;
+    background: #333;
+    border-radius: 10%;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+}
+
+.tituloh1 {
+    width: 100%;
+    height: 80px;
+    background: #333;
+    color: aliceblue;
+}
+
+.inputform {
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    margin: 10px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main img {
+    max-width: 80%;
+}
+
+.logo {
+    width: 135px;
+    height: 50px;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*---------Estilos del Header---------------*/
+
+.header {
+    height: 60px;
+    background: #333;
+}
+
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.icon-menu {
+    margin: 5px;
+    color: #fff;
+}
+
+.icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #999;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    transition: all 0.5s;
+    z-index: 100;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+
+.menu__link {
+    display: block;
+    padding: 15px;
+    background: rgba(51, 51, 51, 0.9);
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    border-bottom: 1px solid #999;
+}
+
+.menu__link:hover {
+    background: white;
+    color: #000;
+}
+
+.muestrate {
+    left: 0;
+}
+
+.titulo {
+    color: #fff;
+}
+
+
+/*-------Estilos del Banner-----*/
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: #fff;
+    text-align: centerx;
+}
